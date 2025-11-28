@@ -33,13 +33,19 @@ shopping_cart_analysis/
 │ ├── cleaned_uk_data.csv
 │ ├── basket_bool.parquet
 │ └── rules_apriori_filtered.csv
+│
 ├── notebooks/
-│ ├── 01_preprocessing_and_eda.ipynb
-│ ├── 02_basket_preparation.ipynb
-│ ├── 03_apriori_modeling.ipynb
+│ ├── preprocessing_and_eda.ipynb
+│ ├── basket_preparation.ipynb
+│ ├── apriori_modelling.ipynb
 │ └── runs/
+│ ├── preprocessing_and_eda_run.ipynb
+│ ├── basket_preparation_run.ipynb
+│ └── apriori_modelling_run.ipynb
+│
 ├── src/
 │ └── shopping_cart_library.py
+│
 ├── run_papermill.py
 ├── requirements.txt
 └── README.md
@@ -124,14 +130,16 @@ Phân tích hành vi mua hàng
 Sắp xếp sản phẩm tại siêu thị
 
 ### Tech Stack
-Công nghệ	Mục đích
-Python	language
-Pandas	data processing
-MLxtend	Apriori / FP-Growth
-Papermill	batch notebook run
-Matplotlib / Seaborn	visualization
-Plotly	interactive visualization
-Jupyter	notebook engine
+
+| Công nghệ | Mục đích |
+|----------|----------|
+| Python | Ngôn ngữ chính |
+| Pandas | Xử lý dữ liệu transaction |
+| MLxtend | Apriori / FP-Growth association rules |
+| Papermill | Chạy pipeline notebook tự động |
+| Matplotlib & Seaborn | Visualization biểu đồ tĩnh |
+| Plotly | Dashboard / biểu đồ tương tác |
+| Jupyter Notebook | Môi trường notebook |
 
 ### Roadmap
  Thêm FP-Growth notebook (04)
