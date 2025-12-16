@@ -192,6 +192,6 @@ Từ phân tích này, cửa hàng có thể:
 
 ---
 
-**Nhóm thực hiện:** [Tên nhóm]  
+**Nhóm thực hiện:** Nhóm 6  
 **Ngày:** 16/12/2025
 
