@@ -92,10 +92,16 @@ notebooks/runs/apriori_modelling_run.ipynb
 Các tham số có thể chỉnh trong run_papermill.py:
 
 ```python
-MIN_SUPPORT=0.01
+Ngưỡng thấp 
+MIN_SUPPORT=0.005
 MAX_LEN=3
-FILTER_MIN_CONF=0.3
-FILTER_MIN_LIFT=1.2
+FILTER_MIN_CONF=0.2
+FILTER_MIN_LIFT=1.0
+Ngưỡng cao
+MIN_SUPPORT=0.02
+MAX_LEN=3
+FILTER_MIN_CONF=0.5
+FILTER_MIN_LIFT=2.0
 ```
 
 Hoặc sửa trong cell PARAMETERS của mỗi notebook để chạy với cấu hình khác nhau.
@@ -154,4 +160,4 @@ Trang Le
 
 📄 License
 MIT — sử dụng tự do cho nghiên cứu, học thuật và ứng dụng nội bộ.
-Nhóm 67 - CNTT 17-10 hehe
+Nhóm 6 - CNTT 17-10 hehe
